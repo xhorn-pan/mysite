@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="referrer" content="no-referrer">
+
+        <link rel="stylesheet" href="https:&#x2F;&#x2F;xhorn-pan.github.io&#x2F;mysite&#x2F;fonts.css">
+        <link rel="stylesheet" href="https:&#x2F;&#x2F;xhorn-pan.github.io&#x2F;mysite&#x2F;style.css">
+
+        <title>
+    Specify an SSH key for git push
+</title>
+
+        
+    </head>
+    <body>
+        
+    <div class="wrap">
+        <div class="section" id="title">
+            
+    Specify an SSH key for git push
+
+        </div>
+        <div class="section" id="content">
+            
+    
+        
+        
+            
+                54 words
+            
+        
+        
+            
+            
+                &#183; 1 min
+            
+        
+        
+        <hr/>
+    
+    <h2 id="use-case">USE CASE</h2>
+<p>I would like to able to push to github using a different ssh key, like <code>id_rsa-github</code> rather the default <code>id_rsa</code>.</p>
+<h3 id="solution-1">Solution 1</h3>
+<p>First, edit the ssh config file</p>
+<pre style="background-color:#282a36;">
+<code><span style="color:#f8f8f2;">Host github
+	HostName 	github.com
+	User		git
+	IdentityFile    ~/.ssh/id_rsa-github
+	IdentitiesOnly  yes
+</span></code></pre>
+<p>then </p>
+<pre style="background-color:#282a36;">
+<code><span style="color:#50fa7b;">git</span><span style="color:#f8f8f2;"> remote set-url origin github:xhorn-pan/xhorn-pan.github.io.git
+</span></code></pre>
+
+        </div>
+        
+    <div class="bottom-menu">
+        <p>
+            
+                
+                    <a href="posts">posts</a>
+                    &#183;
+                
+                    <a href="about">about</a>
+                    &#183;
+                
+                    <a href="https:&#x2F;&#x2F;github.com&#x2F;xhorn-pan">github</a>
+                    &#183;
+                
+            
+            <a href="https:&#x2F;&#x2F;xhorn-pan.github.io&#x2F;mysite&#x2F;">
+                home
+            </a>
+        </p>
+    </div>
+
+    </div>
+
+    </body>
+</html>

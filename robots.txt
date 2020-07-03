@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://xhorn-pan.github.io/mysite/sitemap.xml
