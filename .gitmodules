@@ -1,3 +1,3 @@
-[submodule "themes/after-dark"]
-	path = themes/after-dark
-	url = https://github.com/xhorn-pan/after-dark
+[submodule "themes/xp-sam"]
+	path = themes/xp-sam
+	url = git@github.com:xhorn-pan/zola-sam.git

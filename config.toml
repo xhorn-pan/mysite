@@ -1,10 +1,10 @@
 # The URL the site will be built for
-base_url = "https://xhorn-pan.github.io"
+base_url = "https://xhorn-pan.github.io/mysite"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
-theme = "after-dark"
+theme = "xp-sam"
 
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
@@ -16,3 +16,10 @@ build_search_index = false
 
 [extra]
 # Put all your custom variables here
+sam_menu = [
+    { text = "posts", link = "/posts" },
+    { text = "about", link = "/about" },
+    { text = "github", link = "https://github.com/xhorn-pan" }
+]
+
+sam_bottom_menu = true
